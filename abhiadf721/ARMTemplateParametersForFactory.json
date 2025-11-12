@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "abhiadf721"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"gls_getmeta_accountKey": {
+			"value": ""
+		},
+		"ls_dynamic_sink_accountKey": {
+			"value": ""
+		},
+		"ls_incremental_accountKey": {
+			"value": ""
+		},
+		"ls_logging_password": {
+			"value": ""
+		},
+		"ls_sink_dynamic_accountKey": {
+			"value": ""
+		},
+		"ls_sql_src_dynamic_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"gls_getmeta_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"ls_dynamic_sink_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"ls_incremental_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"ls_logging_properties_typeProperties_server": {
+			"value": "abhi721.database.windows.net"
+		},
+		"ls_logging_properties_typeProperties_database": {
+			"value": "abhi721"
+		},
+		"ls_logging_properties_typeProperties_userName": {
+			"value": "abhi721"
+		},
+		"ls_sink_dynamic_properties_typeProperties_url": {
+			"value": "https://landingzone721.dfs.core.windows.net/"
+		},
+		"ls_sql_src_dynamic_properties_typeProperties_server": {
+			"value": "abhi721.database.windows.net"
+		},
+		"ls_sql_src_dynamic_properties_typeProperties_database": {
+			"value": "abhi721"
+		},
+		"ls_sql_src_dynamic_properties_typeProperties_userName": {
+			"value": "abhi721"
+		}
+	}
+}
